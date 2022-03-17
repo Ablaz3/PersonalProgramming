@@ -5,4 +5,5 @@ cerr : standard error output stream
 clog : standard logging (output) stream // cerr, and clog are the same as cout, only that they identify the kind of information they are outputting. i.e errors and logs.
 
 Cout : know basics
-Cin : 
+Cin : Gets information by default from the keyboard. Put >> after cin to insert the information which will be input on the keyboard into a varibale following the >> (extraction operator) Ex: cin >> i; Can also insert into multiple variables by using multiple insertion operators
+getline: takes the first argument as the string, and the second as the variable. 
