@@ -1,0 +1,7 @@
+
+Compound statement: group of statements where each is terminated by its own semicolon, but all are grouped in a block of curly braces. This is considered a single statement, and therefore will work with flow control statements { statement1; statement2; statement3; }
+If: if followed by a condition will execute a following statement only if the condition is true: if (condition) statement
+else: following the statement with an else will cause a following statement to be run if the condition is false. if (condition) statement1 else statement2
+while: while followed by a condition will run a following statement when the condition is true, and when the statement has finished running, will chech again if the statement is true and if so run it again. This repeats. while (expression) statement
+do while: Do followed by a statement and while will execute this statement, then check if a condition specified after while is true, and if so will run the statement and evaluation again. Guarantees one run of the statement. do statement while (condition);
+For loop:
