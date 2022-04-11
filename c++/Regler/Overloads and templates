@@ -13,5 +13,5 @@ non type template arguments:
 in the template-variable/class declaration you can also declare non class/typename variables, just like in a normal function's parameters
 syntax: template(type variable) 
 ex: template(class T, int U)
-This second one will be used as a normal function parameter, but will be needed to be declared in the brackets, not paranthesis when calling the function. It also shall not be typed into the parameters of the function
+This second one will be used as a normal function parameter, but will be needed to be given a value, not a type in the brackets, and nothing in the paranthesis when calling the function. It also shall not be typed into the parameters of the function
 

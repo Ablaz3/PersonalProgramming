@@ -13,7 +13,7 @@ int main ()
     getline (cin, timerequested);
 
     
-    stringstream(timerequested) >> b, c;
+    stringstream(timerequested) >> b;
 
     cout << "Countdown: " << '\n';
     while (b >= c)

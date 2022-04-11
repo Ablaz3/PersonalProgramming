@@ -2,13 +2,13 @@
 #include <iostream>
 using namespace std;
 
-template <class T, class N>
-T fixed_multiply (T val, N val2)
+template <class T, int N>
+T fixed_multiply (T val)
 {
-  return val * val2;
+  return val * N;
 }
 
 int main() {
-  std::cout << fixed_multiply<int,int>(10, 2) << '\n';
-  std::cout << fixed_multiply<int,int>(10, 3) << '\n';
+  std::cout << fixed_multiply<int,2>(10, 2) << '\n';
+  std::cout << fixed_multiply<int,3>(10, 3) << '\n';
 }
