@@ -12,8 +12,9 @@ void multiplynontypetemplate(a& val)
 }
 
 
-void helloname(string a)
+void helloname()
 {
+    string a;
     cout << "enter your name: ";
     cin.sync();
     getline (cin, a);
@@ -28,7 +29,7 @@ int main ()
     cin.sync();
     cin >> multiplyvalue1;
     cin >> multiplyvalue2;
-    cout << "the two numbers you entered, multiplied with eachother are equal to: " << multiply(multiplyvalue1, multiplyvalue2) << '\n';
+    cout << "the two numbers you entered multiplied are equal to: " << multiply(multiplyvalue1, multiplyvalue2) << '\n';
     cout << "to multiply by 2, enter a number, press enter, enter 0, press enter. To multiply by 3, enter 0, press enter once, enter a number, then press enter again." << '\n';
     cin >> multiplyvalue1;
     cin.sync();
@@ -47,7 +48,7 @@ int main ()
     {
         cout << "error" << endl;
     }
-    helloname("ex");
+    helloname();
 
 }
 

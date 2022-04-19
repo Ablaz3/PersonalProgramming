@@ -21,5 +21,7 @@ using namespace second;
     cout << x+y << '\n';
     cout << x+first::y << '\n';
 }
+{
+    cout << first::x+first::y;
 }
-
+}
